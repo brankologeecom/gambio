@@ -1,6 +1,6 @@
 # Mollie module for Gambio
 
-## Supported GX versions
+## Supported GX versions 
 This branch contains mollie module which is eligible for Gambio versions 4.5.x - 4.8.x.
 
 If you have Gambio from 3.0.x to 3.4.x versions, please checkout on `3.0-3.4` branch of this Github repository.
