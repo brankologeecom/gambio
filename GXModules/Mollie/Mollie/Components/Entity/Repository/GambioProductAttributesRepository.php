@@ -46,7 +46,7 @@ class GambioProductAttributesRepository extends GambioBaseRepository
                   WHERE po.products_options_name = '" . addslashes($productsOptions) . "'
                   AND po.products_options_id = pa.options_id
                   AND pov.products_options_values_id = pa.options_values_id
-                  AND pov.products_options_values_name = '" . addslashes($productsOptionsValues) . "'
+                  AND pov.products_options_values_name = '" . $productsOptionsValues . "'
                   AND pa.products_id = '" . $productsId . "'
                   LIMIT 1";
 
